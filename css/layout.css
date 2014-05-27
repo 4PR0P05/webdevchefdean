@@ -52,6 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
+   margin-top: 50px;
    padding-bottom: 30px;s
    text-align: center;
 }
@@ -250,7 +251,7 @@ ul#nav li.current a { color: #990922; }
    width: 64%;
 	margin-left:44%;
 	margin-right:50%;
-   
+
 }
 #contact input:focus,
 #contact textarea:focus,
