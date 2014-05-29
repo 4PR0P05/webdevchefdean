@@ -7,13 +7,8 @@
 
    TOC:
    a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
+   b. Header Styles - main page part
+   h. Form Section - Login part
    i. Footer
 
 ===================================================================== */
@@ -52,6 +47,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
+   margin-top: 50px;
    padding-bottom: 30px;s
    text-align: center;
 }
@@ -250,7 +246,7 @@ ul#nav li.current a { color: #990922; }
    width: 64%;
 	margin-left:44%;
 	margin-right:50%;
-   
+
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -258,7 +254,7 @@ ul#nav li.current a { color: #990922; }
 	color: #fff;
 	background-color: #787576;
 }
-#contact button.submit {
+#contact .submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#000;
@@ -266,11 +262,12 @@ ul#nav li.current a { color: #990922; }
 	border: none;
    cursor: pointer;
    height: auto;
+   width: 125px;
    display: inline-block;
 	border-radius: 3px;
 	margin-left:90%;
 }
-#contact button.submit:hover {
+#contact .submit:hover {
 	color: #FFF;
 	background: #0D0D0D;
 }
